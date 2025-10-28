@@ -14,7 +14,9 @@
 
 import os
 from typing import Literal, List, Dict, Any
-from langgraph.prebuilt import create_react_agent
+
+from langchain.agents import create_react_agent
+
 from langchain_core.messages import AIMessage, HumanMessage
 from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI

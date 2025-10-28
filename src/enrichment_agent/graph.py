@@ -4,7 +4,7 @@ Works with a chat model with tool calling support.
 """
 
 import os
-from langgraph.prebuilt import create_react_agent
+from langchain.agents import create_react_agent
 from langchain_core.messages import AIMessage
 from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI
